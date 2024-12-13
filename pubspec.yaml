@@ -1,0 +1,15 @@
+name: log_that
+description: A simple, colorful logging utility class for Dart and Flutter.
+version: 1.0.0
+homepage: https://github.com/yasinatagun/log_that
+repository: https://github.com/yasinatagun/log_that
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+# We can keep it dependency-free, as we're only using `dart:developer`.
+dependencies:
+  # no direct dependencies needed
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
